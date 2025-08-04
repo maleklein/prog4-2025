@@ -205,6 +205,25 @@ Para **SWI-Prolog**, abrí el programa y deberías ver el prompt `?-`
 
 ## 🆘 ¿Problemas con la instalación?
 
+### Error de Execution Policies en Windows
+Si al usar `npm` te aparece un error como:
+```
+cannot be loaded because running scripts is disabled on this system
+```
+
+**Solución:**
+1. Abrí **PowerShell como Administrador** (click derecho → "Ejecutar como administrador")
+2. Ejecutá este comando:
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+3. Cuando te pregunte, escribí `Y` y presioná Enter
+4. Cerrá PowerShell y abrí una nueva terminal normal
+5. Ahora `npm` debería funcionar correctamente
+
+**¿Qué hace esto?** Permite que PowerShell ejecute scripts que vos descargaste localmente, que es necesario para que npm funcione bien.
+
+### Otros problemas comunes
 - **Windows:** Asegurate de reiniciar la terminal después de instalar
 - **macOS:** Podés usar Homebrew para instalar la mayoría de herramientas
 - **Linux:** Usá el gestor de paquetes de tu distribución
