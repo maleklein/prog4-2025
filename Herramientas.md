@@ -5,6 +5,24 @@
 
 ## 🐙 Configuración de GitHub
 
+### Instalar Git
+Antes que nada, necesitás tener Git instalado:
+
+**Windows:**
+- Descargá desde [git-scm.com](https://git-scm.com/)
+- Durante la instalación, asegurate de marcar "Git Bash Here"
+- También podés usar `winget install Git.Git` si tenés winget
+
+**macOS:**
+- **Homebrew:** `brew install git`
+- **Xcode:** `xcode-select --install`
+- **Descarga directa:** [git-scm.com](https://git-scm.com/)
+
+**Linux:**
+- **Ubuntu/Debian:** `sudo apt install git`
+- **Fedora:** `sudo dnf install git`
+- **Arch:** `sudo pacman -S git`
+
 ### Crear tu cuenta
 1. Andá a [github.com](https://github.com/) y hacé click en "Sign up"
 2. Elegí un **username** que sea profesional (lo vas a usar en el futuro laboral)
@@ -57,6 +75,25 @@ Para poder seguir la materia sin problemas, vas a necesitar instalar las siguien
 
 ### 📦 Herramientas Base
 
+**Git** 📝
+- **¿Para qué?** Control de versiones
+- **Instalación por SO:**
+
+**Windows:**
+- Descargá desde [git-scm.com](https://git-scm.com/)
+- Durante la instalación, asegurate de marcar "Git Bash Here"
+- También podés usar `winget install Git.Git` si tenés winget
+
+**macOS:**
+- **Homebrew:** `brew install git`
+- **Xcode:** `xcode-select --install`
+- **Descarga directa:** [git-scm.com](https://git-scm.com/)
+
+**Linux:**
+- **Ubuntu/Debian:** `sudo apt install git`
+- **Fedora:** `sudo dnf install git`
+- **Arch:** `sudo pacman -S git`
+
 **Node.js** 🟢
 - **¿Para qué?** Runtime de JavaScript y gestor de paquetes npm
 - **Instalación:** A través de NVM (Node Version Manager)
@@ -83,11 +120,6 @@ npm --version
 - **¿Para qué?** Editor de código principal
 - **Descarga:** [code.visualstudio.com](https://code.visualstudio.com/)
 - **¿Por qué VS Code?** Excelente soporte para todos los lenguajes que vamos a usar
-
-**Git** 📝
-- **¿Para qué?** Control de versiones
-- **Descarga:** [git-scm.com](https://git-scm.com/)
-- **Tip:** En Windows, instalar Git Bash también
 
 **Cuenta de GitHub** 🐙
 - **¿Para qué?** Repositorio remoto para tus proyectos
